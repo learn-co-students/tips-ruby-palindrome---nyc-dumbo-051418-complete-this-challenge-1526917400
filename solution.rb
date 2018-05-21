@@ -12,7 +12,7 @@ def palindrome_recursive?(string)
   return true if string.size < 2
   if(string.size >= 2)
     if string[0] == string[-1]
-      return true if palindrome_recursive?(string.slice(1, string.size - 2))
+      palindrome_recursive?(string.slice(1, string.size - 2))
     else
       return false
     end
