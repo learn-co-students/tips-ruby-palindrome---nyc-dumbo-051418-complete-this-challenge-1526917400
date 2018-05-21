@@ -1,7 +1,5 @@
 
 
-"racecar"
-"gift"
 
 def palindrome?(string)
   if string == string.reverse
