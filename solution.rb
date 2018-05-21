@@ -1,7 +1,7 @@
 require 'pry'
 
 def palindrome?(phrase)
-  phrase.reversed == phrase
+  phrase.reverse == phrase
 end
 
 def palindrome2?(phrase)
